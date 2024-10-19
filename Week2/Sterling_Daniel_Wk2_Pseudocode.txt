@@ -1,0 +1,33 @@
+Start
+
+# Step 1: Input values from user
+Display "Enter first value:"
+Input v1
+Display "Enter the second value:"
+Input v2
+Display "Enter the third value:"
+Input v3
+Display "Enter the fourth value:"
+Input v4
+
+# Step 2: Perform arithmetic operations
+# Addition
+add_result = v1 + v2
+# Subtraction
+subtract_result = v3 - v4
+# Multiplication
+multiply_result = v1 * v3
+# Division
+if v4 is not equal to 0:
+	divide_result = v2 / v4
+else:
+	Display "Error: Division by zero is not allowed"
+	Stop
+	
+# Step 3: Display results
+Display "addition of v1 and v2: ", add_result
+Display "subtraction of v3 and v4: ", subtract_result
+Display "multiplication of v1 and v3: ", multiply_result
+Display "division of v2 and v4: ", divide_result
+
+End
