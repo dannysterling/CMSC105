@@ -1,0 +1,28 @@
+Start
+
+# Prompt user to input age
+Prompt "Input your age:"
+Read age
+
+# Prompt user to input the time of the movie
+Prompt "Enter the time of the movie (24-hour format):"
+Read time
+
+# Determine base ticket price on age
+IF age < 12 THEN
+	ticket_price = 5
+ELSE IF age >= 55 THEN
+	ticket_price = 7
+ELSE
+	ticket price = 10
+END IF
+
+# Apply discount if the time of the movie is before 5:00 pm (17:00)
+IF time < 17 THEN
+	ticket price = ticket_price - 2
+END IF
+
+# Display the final ticket price
+Display "Your final ticket price is: $" + ticket_price
+
+End
