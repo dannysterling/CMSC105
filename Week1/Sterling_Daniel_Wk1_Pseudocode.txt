@@ -1,0 +1,11 @@
+1. Start
+2. INPUT top of the mountain
+3. INPUT at the valley the clouds float
+4. INPUT by a calm river
+5. INPUT Slobodan Pupovac
+6. OUTPUT
+	top of the mountain
+	at the valley the clouds float
+	by a calm river
+	Slobodan Pupvac
+7. End
